@@ -71,6 +71,7 @@
     CGContextTranslateCTM(context, 0, self.bounds.size.height);
     // Y轴反转
     CGContextScaleCTM(context, 1, -1);
+    
     CTFrameDraw(frameRef, context);
     // 释放
     CFRelease(setterRef);
