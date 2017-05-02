@@ -27,7 +27,7 @@
 
 - (void)coreTextLayout {
     
-    JZTextLabel2 *textLabel = [[JZTextLabel2 alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 400)];
+    JZTextLabel2 *textLabel = [[JZTextLabel2 alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
     textLabel.backgroundColor = [UIColor yellowColor];
     textLabel.userInteractionEnabled = YES;
     textLabel.text = @"abcdefefeflefjlejfelfjelfj1121240000000gegegegegldladkflasdkjfladadk;fasdkf;ld;flkasd=======kkkk<Image:width=30,height=60> {Image:width=30,height=60}";
