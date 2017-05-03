@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A9B57DF21EB8A1E100585B85 /* JZTextLabel2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DF11EB8A1E100585B85 /* JZTextLabel2.m */; };
+		A9B57DF51EB9783300585B85 /* JZCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DF41EB9783300585B85 /* JZCoreTextView.m */; };
+		A9B57DF81EB9812800585B85 /* JZCoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DF71EB9812800585B85 /* JZCoreTextLabel.m */; };
+		A9B57DFC1EB988AA00585B85 /* JZCoreTextColumnarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DFB1EB988AA00585B85 /* JZCoreTextColumnarView.m */; };
+		A9B57E021EB9CA0C00585B85 /* JZCTLineBreakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E011EB9CA0C00585B85 /* JZCTLineBreakingView.m */; };
+		A9B57E051EB9CCFC00585B85 /* JZBaseCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E041EB9CCFC00585B85 /* JZBaseCoreTextView.m */; };
+		A9B57E081EB9D35900585B85 /* JZParagraphStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E071EB9D35900585B85 /* JZParagraphStyleView.m */; };
+		A9B57E0B1EB9DF7200585B85 /* JZNonrectangularRegionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E0A1EB9DF7200585B85 /* JZNonrectangularRegionView.m */; };
+		A9B57E101EB9EA0000585B85 /* JZFontOperationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E0F1EB9EA0000585B85 /* JZFontOperationsView.m */; };
 		A9EF27141EA9FF0E00827BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF27131EA9FF0E00827BB4 /* main.m */; };
 		A9EF27171EA9FF0E00827BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF27161EA9FF0E00827BB4 /* AppDelegate.m */; };
 		A9EF271A1EA9FF0E00827BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF27191EA9FF0E00827BB4 /* ViewController.m */; };
@@ -21,6 +29,22 @@
 /* Begin PBXFileReference section */
 		A9B57DF01EB8A1E100585B85 /* JZTextLabel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTextLabel2.h; sourceTree = "<group>"; };
 		A9B57DF11EB8A1E100585B85 /* JZTextLabel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTextLabel2.m; sourceTree = "<group>"; };
+		A9B57DF31EB9783300585B85 /* JZCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCoreTextView.h; sourceTree = "<group>"; };
+		A9B57DF41EB9783300585B85 /* JZCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCoreTextView.m; sourceTree = "<group>"; };
+		A9B57DF61EB9812800585B85 /* JZCoreTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCoreTextLabel.h; sourceTree = "<group>"; };
+		A9B57DF71EB9812800585B85 /* JZCoreTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCoreTextLabel.m; sourceTree = "<group>"; };
+		A9B57DFA1EB988AA00585B85 /* JZCoreTextColumnarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCoreTextColumnarView.h; sourceTree = "<group>"; };
+		A9B57DFB1EB988AA00585B85 /* JZCoreTextColumnarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCoreTextColumnarView.m; sourceTree = "<group>"; };
+		A9B57E001EB9CA0C00585B85 /* JZCTLineBreakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCTLineBreakingView.h; sourceTree = "<group>"; };
+		A9B57E011EB9CA0C00585B85 /* JZCTLineBreakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCTLineBreakingView.m; sourceTree = "<group>"; };
+		A9B57E031EB9CCFC00585B85 /* JZBaseCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBaseCoreTextView.h; sourceTree = "<group>"; };
+		A9B57E041EB9CCFC00585B85 /* JZBaseCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseCoreTextView.m; sourceTree = "<group>"; };
+		A9B57E061EB9D35900585B85 /* JZParagraphStyleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZParagraphStyleView.h; sourceTree = "<group>"; };
+		A9B57E071EB9D35900585B85 /* JZParagraphStyleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZParagraphStyleView.m; sourceTree = "<group>"; };
+		A9B57E091EB9DF7200585B85 /* JZNonrectangularRegionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNonrectangularRegionView.h; sourceTree = "<group>"; };
+		A9B57E0A1EB9DF7200585B85 /* JZNonrectangularRegionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNonrectangularRegionView.m; sourceTree = "<group>"; };
+		A9B57E0E1EB9EA0000585B85 /* JZFontOperationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFontOperationsView.h; sourceTree = "<group>"; };
+		A9B57E0F1EB9EA0000585B85 /* JZFontOperationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZFontOperationsView.m; sourceTree = "<group>"; };
 		A9EF270F1EA9FF0E00827BB4 /* JZCoreTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZCoreTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EF27131EA9FF0E00827BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9EF27151EA9FF0E00827BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +71,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9B57DF91EB981A700585B85 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				A9EF27291EAA0CB000827BB4 /* JZTextLabel.h */,
+				A9EF272A1EAA0CB000827BB4 /* JZTextLabel.m */,
+				A9B57DF01EB8A1E100585B85 /* JZTextLabel2.h */,
+				A9B57DF11EB8A1E100585B85 /* JZTextLabel2.m */,
+			);
+			name = TestView;
+			sourceTree = "<group>";
+		};
+		A9B57E0C1EB9E93C00585B85 /* CommonTextLayoutOperations */ = {
+			isa = PBXGroup;
+			children = (
+				A9B57DF31EB9783300585B85 /* JZCoreTextView.h */,
+				A9B57DF41EB9783300585B85 /* JZCoreTextView.m */,
+				A9B57DF61EB9812800585B85 /* JZCoreTextLabel.h */,
+				A9B57DF71EB9812800585B85 /* JZCoreTextLabel.m */,
+				A9B57E031EB9CCFC00585B85 /* JZBaseCoreTextView.h */,
+				A9B57E041EB9CCFC00585B85 /* JZBaseCoreTextView.m */,
+				A9B57DFA1EB988AA00585B85 /* JZCoreTextColumnarView.h */,
+				A9B57DFB1EB988AA00585B85 /* JZCoreTextColumnarView.m */,
+				A9B57E001EB9CA0C00585B85 /* JZCTLineBreakingView.h */,
+				A9B57E011EB9CA0C00585B85 /* JZCTLineBreakingView.m */,
+				A9B57E061EB9D35900585B85 /* JZParagraphStyleView.h */,
+				A9B57E071EB9D35900585B85 /* JZParagraphStyleView.m */,
+				A9B57E091EB9DF7200585B85 /* JZNonrectangularRegionView.h */,
+				A9B57E0A1EB9DF7200585B85 /* JZNonrectangularRegionView.m */,
+			);
+			name = CommonTextLayoutOperations;
+			sourceTree = "<group>";
+		};
+		A9B57E0D1EB9E96400585B85 /* CommonFontOperations */ = {
+			isa = PBXGroup;
+			children = (
+				A9B57E0E1EB9EA0000585B85 /* JZFontOperationsView.h */,
+				A9B57E0F1EB9EA0000585B85 /* JZFontOperationsView.m */,
+			);
+			name = CommonFontOperations;
+			sourceTree = "<group>";
+		};
 		A9EF27061EA9FF0E00827BB4 = {
 			isa = PBXGroup;
 			children = (
@@ -66,14 +131,11 @@
 		A9EF27111EA9FF0E00827BB4 /* JZCoreTextDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A9EF27151EA9FF0E00827BB4 /* AppDelegate.h */,
-				A9EF27161EA9FF0E00827BB4 /* AppDelegate.m */,
+				A9B57E0D1EB9E96400585B85 /* CommonFontOperations */,
+				A9B57E0C1EB9E93C00585B85 /* CommonTextLayoutOperations */,
+				A9B57DF91EB981A700585B85 /* TestView */,
 				A9EF27181EA9FF0E00827BB4 /* ViewController.h */,
 				A9EF27191EA9FF0E00827BB4 /* ViewController.m */,
-				A9EF27291EAA0CB000827BB4 /* JZTextLabel.h */,
-				A9EF272A1EAA0CB000827BB4 /* JZTextLabel.m */,
-				A9B57DF01EB8A1E100585B85 /* JZTextLabel2.h */,
-				A9B57DF11EB8A1E100585B85 /* JZTextLabel2.m */,
 				A9EF271B1EA9FF0E00827BB4 /* Main.storyboard */,
 				A9EF271E1EA9FF0E00827BB4 /* Assets.xcassets */,
 				A9EF27201EA9FF0E00827BB4 /* LaunchScreen.storyboard */,
@@ -87,6 +149,8 @@
 		A9EF27121EA9FF0E00827BB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9EF27151EA9FF0E00827BB4 /* AppDelegate.h */,
+				A9EF27161EA9FF0E00827BB4 /* AppDelegate.m */,
 				A9EF27131EA9FF0E00827BB4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -164,11 +228,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B57DF81EB9812800585B85 /* JZCoreTextLabel.m in Sources */,
+				A9B57DFC1EB988AA00585B85 /* JZCoreTextColumnarView.m in Sources */,
 				A9EF271A1EA9FF0E00827BB4 /* ViewController.m in Sources */,
+				A9B57E081EB9D35900585B85 /* JZParagraphStyleView.m in Sources */,
 				A9EF272B1EAA0CB000827BB4 /* JZTextLabel.m in Sources */,
+				A9B57E0B1EB9DF7200585B85 /* JZNonrectangularRegionView.m in Sources */,
+				A9B57E021EB9CA0C00585B85 /* JZCTLineBreakingView.m in Sources */,
+				A9B57DF51EB9783300585B85 /* JZCoreTextView.m in Sources */,
 				A9EF27171EA9FF0E00827BB4 /* AppDelegate.m in Sources */,
 				A9EF27141EA9FF0E00827BB4 /* main.m in Sources */,
 				A9B57DF21EB8A1E100585B85 /* JZTextLabel2.m in Sources */,
+				A9B57E051EB9CCFC00585B85 /* JZBaseCoreTextView.m in Sources */,
+				A9B57E101EB9EA0000585B85 /* JZFontOperationsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
