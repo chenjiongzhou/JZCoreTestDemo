@@ -16,6 +16,8 @@
 		A9B57E081EB9D35900585B85 /* JZParagraphStyleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E071EB9D35900585B85 /* JZParagraphStyleView.m */; };
 		A9B57E0B1EB9DF7200585B85 /* JZNonrectangularRegionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E0A1EB9DF7200585B85 /* JZNonrectangularRegionView.m */; };
 		A9B57E101EB9EA0000585B85 /* JZFontOperationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57E0F1EB9EA0000585B85 /* JZFontOperationsView.m */; };
+		A9D093D41EBB7FF9003500ED /* NSDictionary+NewsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D093D31EBB7FF9003500ED /* NSDictionary+NewsInfo.m */; };
+		A9D093D71EBB8040003500ED /* JZDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D093D61EBB8040003500ED /* JZDataManager.m */; };
 		A9EF27141EA9FF0E00827BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF27131EA9FF0E00827BB4 /* main.m */; };
 		A9EF27171EA9FF0E00827BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF27161EA9FF0E00827BB4 /* AppDelegate.m */; };
 		A9EF271A1EA9FF0E00827BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF27191EA9FF0E00827BB4 /* ViewController.m */; };
@@ -45,6 +47,10 @@
 		A9B57E0A1EB9DF7200585B85 /* JZNonrectangularRegionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNonrectangularRegionView.m; sourceTree = "<group>"; };
 		A9B57E0E1EB9EA0000585B85 /* JZFontOperationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFontOperationsView.h; sourceTree = "<group>"; };
 		A9B57E0F1EB9EA0000585B85 /* JZFontOperationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZFontOperationsView.m; sourceTree = "<group>"; };
+		A9D093D21EBB7FF9003500ED /* NSDictionary+NewsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NewsInfo.h"; sourceTree = "<group>"; };
+		A9D093D31EBB7FF9003500ED /* NSDictionary+NewsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NewsInfo.m"; sourceTree = "<group>"; };
+		A9D093D51EBB8040003500ED /* JZDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZDataManager.h; sourceTree = "<group>"; };
+		A9D093D61EBB8040003500ED /* JZDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZDataManager.m; sourceTree = "<group>"; };
 		A9EF270F1EA9FF0E00827BB4 /* JZCoreTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZCoreTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EF27131EA9FF0E00827BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9EF27151EA9FF0E00827BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +118,17 @@
 			name = CommonFontOperations;
 			sourceTree = "<group>";
 		};
+		A9D093D11EBB7FCE003500ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9D093D21EBB7FF9003500ED /* NSDictionary+NewsInfo.h */,
+				A9D093D31EBB7FF9003500ED /* NSDictionary+NewsInfo.m */,
+				A9D093D51EBB8040003500ED /* JZDataManager.h */,
+				A9D093D61EBB8040003500ED /* JZDataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A9EF27061EA9FF0E00827BB4 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +148,7 @@
 		A9EF27111EA9FF0E00827BB4 /* JZCoreTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9D093D11EBB7FCE003500ED /* Model */,
 				A9B57E0D1EB9E96400585B85 /* CommonFontOperations */,
 				A9B57E0C1EB9E93C00585B85 /* CommonTextLayoutOperations */,
 				A9B57DF91EB981A700585B85 /* TestView */,
@@ -233,8 +251,10 @@
 				A9EF271A1EA9FF0E00827BB4 /* ViewController.m in Sources */,
 				A9B57E081EB9D35900585B85 /* JZParagraphStyleView.m in Sources */,
 				A9EF272B1EAA0CB000827BB4 /* JZTextLabel.m in Sources */,
+				A9D093D41EBB7FF9003500ED /* NSDictionary+NewsInfo.m in Sources */,
 				A9B57E0B1EB9DF7200585B85 /* JZNonrectangularRegionView.m in Sources */,
 				A9B57E021EB9CA0C00585B85 /* JZCTLineBreakingView.m in Sources */,
+				A9D093D71EBB8040003500ED /* JZDataManager.m in Sources */,
 				A9B57DF51EB9783300585B85 /* JZCoreTextView.m in Sources */,
 				A9EF27171EA9FF0E00827BB4 /* AppDelegate.m in Sources */,
 				A9EF27141EA9FF0E00827BB4 /* main.m in Sources */,
