@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9AD3A9E1EBDDF4E003A2019 /* JZCoreTextView1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AD3A9D1EBDDF4E003A2019 /* JZCoreTextView1.m */; };
+		A9AD3AA11EBDDF6D003A2019 /* JZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AD3AA01EBDDF6D003A2019 /* JZUtil.m */; };
 		A9B57DF21EB8A1E100585B85 /* JZTextLabel2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DF11EB8A1E100585B85 /* JZTextLabel2.m */; };
 		A9B57DF51EB9783300585B85 /* JZCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DF41EB9783300585B85 /* JZCoreTextView.m */; };
 		A9B57DF81EB9812800585B85 /* JZCoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B57DF71EB9812800585B85 /* JZCoreTextLabel.m */; };
@@ -29,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9AD3A9C1EBDDF4D003A2019 /* JZCoreTextView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCoreTextView1.h; sourceTree = "<group>"; };
+		A9AD3A9D1EBDDF4E003A2019 /* JZCoreTextView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCoreTextView1.m; sourceTree = "<group>"; };
+		A9AD3A9F1EBDDF6D003A2019 /* JZUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZUtil.h; sourceTree = "<group>"; };
+		A9AD3AA01EBDDF6D003A2019 /* JZUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZUtil.m; sourceTree = "<group>"; };
 		A9B57DF01EB8A1E100585B85 /* JZTextLabel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTextLabel2.h; sourceTree = "<group>"; };
 		A9B57DF11EB8A1E100585B85 /* JZTextLabel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTextLabel2.m; sourceTree = "<group>"; };
 		A9B57DF31EB9783300585B85 /* JZCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCoreTextView.h; sourceTree = "<group>"; };
@@ -77,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9AD3A9B1EBDDF12003A2019 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD3A9C1EBDDF4D003A2019 /* JZCoreTextView1.h */,
+				A9AD3A9D1EBDDF4E003A2019 /* JZCoreTextView1.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		A9B57DF91EB981A700585B85 /* TestView */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +163,7 @@
 		A9EF27111EA9FF0E00827BB4 /* JZCoreTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9AD3A9B1EBDDF12003A2019 /* View */,
 				A9D093D11EBB7FCE003500ED /* Model */,
 				A9B57E0D1EB9E96400585B85 /* CommonFontOperations */,
 				A9B57E0C1EB9E93C00585B85 /* CommonTextLayoutOperations */,
@@ -160,6 +176,8 @@
 				A9EF272C1EAA1ACD00827BB4 /* 1.jpg */,
 				A9EF27231EA9FF0E00827BB4 /* Info.plist */,
 				A9EF27121EA9FF0E00827BB4 /* Supporting Files */,
+				A9AD3A9F1EBDDF6D003A2019 /* JZUtil.h */,
+				A9AD3AA01EBDDF6D003A2019 /* JZUtil.m */,
 			);
 			path = JZCoreTextDemo;
 			sourceTree = "<group>";
@@ -256,7 +274,9 @@
 				A9B57E021EB9CA0C00585B85 /* JZCTLineBreakingView.m in Sources */,
 				A9D093D71EBB8040003500ED /* JZDataManager.m in Sources */,
 				A9B57DF51EB9783300585B85 /* JZCoreTextView.m in Sources */,
+				A9AD3A9E1EBDDF4E003A2019 /* JZCoreTextView1.m in Sources */,
 				A9EF27171EA9FF0E00827BB4 /* AppDelegate.m in Sources */,
+				A9AD3AA11EBDDF6D003A2019 /* JZUtil.m in Sources */,
 				A9EF27141EA9FF0E00827BB4 /* main.m in Sources */,
 				A9B57DF21EB8A1E100585B85 /* JZTextLabel2.m in Sources */,
 				A9B57E051EB9CCFC00585B85 /* JZBaseCoreTextView.m in Sources */,
